@@ -12,10 +12,14 @@ The module features the MAX30102 – a modern (the successor to the MAX30100), i
 
 ![MAX30102](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MAX30102-Module-Hardware-Overview-IC-and-LEDs.jpg)
  
+ 
  ### 2- Interface MLX90614 Non-contact Infrared Temperature Sensor: 
  
  Since the emergence of COVID-19, non-contact infrared temperature scanners have been popping up everywhere around the world, from airports to restaurants. Maybe you are curious about these temperature scanners, or maybe you’re interested in building one. Well, in that case, the Melexis MLX90614 Module might be the best inexpensive option out there.
+ 
+ 
  ![MLX90614](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MLX90614-Module-Hardware-Overview.jpg)
+
 
 
 ### 3- ESP32 Development Board :
@@ -23,3 +27,9 @@ The module features the MAX30102 – a modern (the successor to the MAX30100), i
 The ESP32 is a series of low-cost and low-power System on a Chip (SoC) microcontrollers developed by Espressif that include Wi-Fi and Bluetooth wireless capabilities and dual-core processor. If you’re familiar with the ESP8266, the ESP32 is its successor, loaded with lots of new features.
 
 ![ESP32 Development Board](https://circuitdigest.com/sites/default/files/inlineimages/u/ESP32-module.png)
+
+
+### 4- We used many connecting wires of all kinds (male-male, female-female, and female-male)
+
+
+### 5- pushbutton, LED
