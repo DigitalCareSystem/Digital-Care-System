@@ -1,6 +1,6 @@
 # 2023 GDSC Solution Challenge
 
-###Welcome to the Digital Care system repository!
+### Welcome to the Digital Care system repository!
 
 The Digital Care system is a sophisticated architecture that consists of three interconnected components, including a dashboard, a vital signs measurement device, and an Android system. These components are connected to cloud-based databases via Google Cloud and communicate with each other using IoT and APIs. The system is built using various programming languages such as Dart and C++, and it utilizes various hardware components such as sensors, microcontrollers, LCD screens, and buttons.
 
