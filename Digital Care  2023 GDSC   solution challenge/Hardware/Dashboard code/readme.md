@@ -25,7 +25,7 @@ The ESP32 is a series of low-cost and low-power System on a Chip (SoC) microcont
 
 ### 3- pushbutton, LED
 
-### 4- Bell to tirn on when there is emargancey state 
+### 4- Bell to turn on when there is emargancey state 
 
 ### 5- Mobile with intrnet and our application in it 
 
