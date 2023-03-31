@@ -11,7 +11,7 @@ Please refer to the documentation and instructions provided in this repository t
 ![image](https://drive.google.com/uc?export=view&id=1corMaspN9rwv9NIv1DHPXu3Hzibzn2h2)
 
 
-![image](https://drive.google.com/uc?export=view&id=1d_ZeCl5GDG90k2FJt_CiIe9-UeLeSMnq)
+![image](https://drive.google.com/uc?export=view&id=1R1QqH3O_GQ4-Eq5LTN40PZMTtuUJkH02)
 
 
 ![image](https://drive.google.com/uc?export=view&id=1Y5X30-TbwfLSI-hj6bHhTRMwbi4eHfD0)
