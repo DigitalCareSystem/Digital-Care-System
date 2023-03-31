@@ -8,7 +8,8 @@ In this repository, you will find all the necessary code, tools, and resources t
 
 Please refer to the documentation and instructions provided in this repository to learn more about the system and how to set it up. We hope this system will be useful for healthcare providers and contribute to improving patient care.
 
-![image](https://drive.google.com/file/d/1corMaspN9rwv9NIv1DHPXu3Hzibzn2h2/view?usp=share_link)
+![image](https://drive.google.com/uc?export=view&id=1corMaspN9rwv9NIv1DHPXu3Hzibzn2h2)
+
 
 
 
