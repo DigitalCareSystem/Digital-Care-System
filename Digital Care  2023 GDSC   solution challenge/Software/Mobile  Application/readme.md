@@ -24,22 +24,42 @@ this screen contains their information, and genrateing report that is contains t
 
 ## the third party packages used in this programm:
   get: ^4.6.5
+  
   firebase_core: ^2.6.1
+  
   shared_preferences: ^2.0.17
+  
   firebase_database: ^10.0.13
+  
   flutter_spinkit: ^5.1.0
+  
   firebase_messaging: ^14.2.5
+  
   velocity_x: ^3.6.0
+  
   workmanager: ^0.5.1
+  
   flutter_isolate: ^2.0.4
+  
   flutter_tts: ^3.6.3
+  
   lottie: ^2.2.0
+  
   flutter_barcode_scanner:
+  
   page_transition: ^2.0.9
+  
   flutter_staggered_animations: ^1.1.1
+  
   introduction_screen: ^3.1.4
+  
   audioplayers: ^0.19.1
+  
   printing: ^5.0.0
+  
   cloud_firestore: ^4.4.5
+  
   awesome_notifications: ^0.7.4+1
+  
+
 
