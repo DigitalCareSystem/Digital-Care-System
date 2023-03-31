@@ -1,6 +1,13 @@
 # Digital care device:
 It is a device used to measure the vital signs of the human body and sends the vital signs to a mobile application that is placed in the wrist and the sensor is connected to the sensitive finger for measuring heart rate and oxygen saturation and the other sensor is placed at the bottom of the device so that it is connected to the wrist and it is necessary To be at a distance in the sensor and the human body a very short distance
 
+
+## How does the digital care device work?
+
+The device consists of three sensors placed in the hand, the first is at the bottom of the device, and the second is a connection from the device to the finger and tied to the finger. The device is installed in the wrist in a correct manner, taking into account the distance between the temperature sensor and the human body. It is necessary to make a very small distance, and after the process of placing it on the hand, it is Connecting the heart sensor and oxygen saturation to the finger. Pay attention during the connection process to the negative and positive electrode in the connection. After the process of placing the device in the hand, the device is turned on using a USB connection. The device uses 5 volts to 3.5 volts while connecting the device to electricity. It turns on the Wi-Fi model and connects to the pre-selected network. And after the process of successful connection to the network, the device sends data to the database and our application is connected to the Internet and connects to the database and takes data from there and updates it in real time
+
+
+
 # The physical side of the project 
 
 ## Tools used in the device
@@ -34,7 +41,7 @@ The ESP32 is a series of low-cost and low-power System on a Chip (SoC) microcont
 
 ### 5- pushbutton, LED
 
-### 6 Mobile with intrnet and our application in it 
+### 6- Mobile with intrnet and our application in it 
 
 # How to implement the program into the device:
 We need many offices to implement the code in the device.
@@ -69,8 +76,6 @@ Type ‘MAX3010x’ in the search bar and press enter. Install the latest versio
 
 
 
-## How does the digital care device work?
 
-The device consists of three sensors placed in the hand, the first is at the bottom of the device, and the second is a connection from the device to the finger and tied to the finger. The device is installed in the wrist in a correct manner, taking into account the distance between the temperature sensor and the human body. It is necessary to make a very small distance, and after the process of placing it on the hand, it is Connecting the heart sensor and oxygen saturation to the finger. Pay attention during the connection process to the negative and positive electrode in the connection. After the process of placing the device in the hand, the device is turned on using a USB connection. The device uses 5 volts to 3.5 volts while connecting the device to electricity. It turns on the Wi-Fi model and connects to the pre-selected network. And after the process of successful connection to the network, the device sends data to the database and our application is connected to the Internet and connects to the database and takes data from there and updates it in real time
 
 
