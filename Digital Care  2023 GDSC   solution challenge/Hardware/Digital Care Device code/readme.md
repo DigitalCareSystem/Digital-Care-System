@@ -8,9 +8,7 @@ The device consists of three sensors placed in the hand, the first is at the bot
 
 
 
-# The physical side of the project 
-
-## Tools used in the device
+# Tools used in the device
 ### 1-	Interfacing MAX30102 Pulse Oximeter and Heart Rate Sensor: 
 
 The MAX30102 pulse oximeter and heart rate sensor is an I2C-based low-power plug-and-play biometric sensor. It can be used by students, hobbyists, engineers, manufacturers, and game & mobile developers who want to incorporate live heart-rate data into their projects.
