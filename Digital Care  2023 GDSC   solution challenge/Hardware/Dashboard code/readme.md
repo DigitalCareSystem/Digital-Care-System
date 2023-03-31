@@ -1,5 +1,5 @@
 # Dashboard device:
-It is a device used to measure the vital signs of the human body and sends the vital signs to a mobile application that is placed in the wrist and the sensor is connected to the sensitive finger for measuring heart rate and oxygen saturation and the other sensor is placed at the bottom of the device so that it is connected to the wrist and it is necessary To be at a distance in the sensor and the human body a very short distance
+It is a device placed next to the secretariat that receives alerts from the vital signs transmitter in case the nurse does not respond to the alarm and displays the name of the patient supervising nurse, room number and bed number on the screen.
 
 
 ![image](https://drive.google.com/uc?export=view&id=1cBKX9p7hML5MsPuUlK7_cI6HAmZe9TOi)
@@ -7,54 +7,38 @@ It is a device used to measure the vital signs of the human body and sends the v
 
 ## How does the vital signs measurement device work?
 
-The device consists of three sensors placed in the hand, the first is at the bottom of the device, and the second is a connection from the device to the finger and tied to the finger. The device is installed in the wrist in a correct manner, taking into account the distance between the temperature sensor and the human body. It is necessary to make a very small distance, and after the process of placing it on the hand, it is Connecting the heart sensor and oxygen saturation to the finger. Pay attention during the connection process to the negative and positive electrode in the connection. After the process of placing the device in the hand, the device is turned on using a USB connection. The device uses 5 volts to 3.5 volts while connecting the device to electricity. It turns on the Wi-Fi model and connects to the pre-selected network. And after the process of successful connection to the network, the device sends data to the database and our application is connected to the Internet and connects to the database and takes data from there and updates it in real time
+The control panel works when connected to the Internet. It starts receiving alerts from the devices associated with the patient. In case the nurse following the patient does not respond, an alert is sent to the control panel located in the secretariat, and then it sends another nurse to see the patient’s condition.
 
 
 
 # Tools used in the device
-### 1-	Interfacing MAX30102 Pulse Oximeter and Heart Rate Sensor: 
 
-The MAX30102 pulse oximeter and heart rate sensor is an I2C-based low-power plug-and-play biometric sensor. It can be used by students, hobbyists, engineers, manufacturers, and game & mobile developers who want to incorporate live heart-rate data into their projects.
-The module features the MAX30102 – a modern (the successor to the MAX30100), integrated pulse oximeter and heart rate sensor IC, from Analog Devices. It combines two LEDs, a photodetector, optimized optics, and low-noise analog signal processing to detect pulse oximetry (SpO2) and heart rate (HR) signals.
-
-
-![MAX30102](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MAX30102-Module-Hardware-Overview-IC-and-LEDs.jpg)
- 
- 
- ### 2- Interface MLX90614 Non-contact Infrared Temperature Sensor: 
- 
- Since the emergence of COVID-19, non-contact infrared temperature scanners have been popping up everywhere around the world, from airports to restaurants. Maybe you are curious about these temperature scanners, or maybe you’re interested in building one. Well, in that case, the Melexis MLX90614 Module might be the best inexpensive option out there.
- 
- 
- ![MLX90614](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/MLX90614-Module-Hardware-Overview.jpg)
-
-
-
-### 3- ESP32 Development Board :
+### 1- ESP32 Development Board :
 
 The ESP32 is a series of low-cost and low-power System on a Chip (SoC) microcontrollers developed by Espressif that include Wi-Fi and Bluetooth wireless capabilities and dual-core processor. If you’re familiar with the ESP8266, the ESP32 is its successor, loaded with lots of new features.
 
 ![ESP32 Development Board](https://circuitdigest.com/sites/default/files/inlineimages/u/ESP32-module.png)
 
 
-### 4- We used many connecting wires of all kinds (male-male, female-female, and female-male)
+### 2- We used many connecting wires of all kinds (male-male, female-female, and female-male)
 
 
-### 5- pushbutton, LED
+### 3- pushbutton, LED
 
-### 6- Mobile with intrnet and our application in it 
+### 4- Bell to tirn on when there is emargancey state 
+
+### 5- Mobile with intrnet and our application in it 
 
 # How to implement the program into the device:
 We need many offices to implement the code in the device.
 How to download it to the device, install it and run the program will be explained
 
 ###this is the library you should install it in code 
-##### include <Arduino.h>  https://github.com/esp8266/Arduino.git
+#####  include <LiquidCrystal_I2C.h> https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library.git
 ##### include <WiFi.h> https://github.com/arduino-libraries/WiFi.git
 ##### include <Firebase_ESP_Client.h>  https://github.com/mobizt/Firebase-ESP-Client.git
 ##### include <Wire.h> https://github.com/esp8266/Arduino.git
-##### include "MAX30105.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
-##### include "heartRate.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
+
 
 to install it in your computer  follow this step 
 
