@@ -1,7 +1,7 @@
 # Digital care device:
 It is a device used to measure the vital signs of the human body and sends the vital signs to a mobile application that is placed in the wrist and the sensor is connected to the sensitive finger for measuring heart rate and oxygen saturation and the other sensor is placed at the bottom of the device so that it is connected to the wrist and it is necessary To be at a distance in the sensor and the human body a very short distance
 
-# The physical side of the project will now be explained
+# The physical side of the project 
 
 ## Tools used in the device
 ### 1-	Interfacing MAX30102 Pulse Oximeter and Heart Rate Sensor: 
@@ -36,6 +36,24 @@ The ESP32 is a series of low-cost and low-power System on a Chip (SoC) microcont
 
 ### 6 Mobile with intrnet and our application in it 
 
-##How does the digital care device work?
+# How to implement the program into the device:
+We need many offices to implement the code in the device.
+How to download it to the device, install it and run the program will be explained
+
+###this is the library you should install it in code 
+##### include <Arduino.h>  https://github.com/esp8266/Arduino.git
+##### include <WiFi.h> https://github.com/arduino-libraries/WiFi.git
+##### include <Firebase_ESP_Client.h>  https://github.com/mobizt/Firebase-ESP-Client.git
+##### include <Wire.h> https://github.com/esp8266/Arduino.git
+##### include "MAX30105.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
+##### include "heartRate.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
+
+to install it follow this step 
+fis
+
+
+## How does the digital care device work?
 
 The device consists of three sensors placed in the hand, the first is at the bottom of the device, and the second is a connection from the device to the finger and tied to the finger. The device is installed in the wrist in a correct manner, taking into account the distance between the temperature sensor and the human body. It is necessary to make a very small distance, and after the process of placing it on the hand, it is Connecting the heart sensor and oxygen saturation to the finger. Pay attention during the connection process to the negative and positive electrode in the connection. After the process of placing the device in the hand, the device is turned on using a USB connection. The device uses 5 volts to 3.5 volts while connecting the device to electricity. It turns on the Wi-Fi model and connects to the pre-selected network. And after the process of successful connection to the network, the device sends data to the database and our application is connected to the Internet and connects to the database and takes data from there and updates it in real time
+
+
