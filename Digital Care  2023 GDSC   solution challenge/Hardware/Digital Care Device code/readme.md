@@ -48,8 +48,25 @@ How to download it to the device, install it and run the program will be explain
 ##### include "MAX30105.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
 ##### include "heartRate.h" https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library.git
 
-to install it follow this step 
-fis
+to install it in your computer  follow this step 
+
+We will use Arduino IDE to program our ESP32 . Thus, you should have the latest version of Arduino IDE. Open Arduino IDE and click on Sketch > Library > Manage Libraries
+
+
+1- ![first step](https://microcontrollerslab.com/wp-content/uploads/2021/05/MPU-6050-Install-library.jpg)
+
+
+The following window will open up.
+
+
+2- ![Second step](https://microcontrollerslab.com/wp-content/uploads/2021/05/search-library-Arduino-IDE.jpg)
+
+
+Type ‘MAX3010x’ in the search bar and press enter. Install the latest version of the SparkFun MAX3010x Pulse and Proximity Sensor Library.
+
+
+3-![third step](https://microcontrollerslab.com/wp-content/uploads/2022/04/Install-MAX30102-Library.jpg)
+
 
 
 ## How does the digital care device work?
